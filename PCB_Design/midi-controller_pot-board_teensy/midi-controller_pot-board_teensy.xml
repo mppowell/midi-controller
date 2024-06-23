@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\marcp\OneDrive - Marc Powell\Projects\midi-controller\PCB_Design\midi-controller_pot-board_teensy\midi-controller_pot-board_teensy.kicad_sch</source>
+    <date>5/14/2024 7:07:59 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>midi-controller_pot-board_teensy.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>975b58bd-4121-4c4f-b745-b70bb33b0a6b</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cf756a2-d9d3-4f0c-a900-b62c4f4ab6f6</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ece82701-f80f-4403-875c-b1f72d48ebab</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6e1050f-e928-4977-b7a7-a3e9a2600ce8</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>595988b1-ac59-4e79-a968-8313ac886caf</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a32d315-33a5-47ff-bf54-86f2d92f0bf9</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c581af74-d9da-4f3e-84bc-ecb82696b787</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12d67789-f9c8-4c47-a56e-d10624d6cb25</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebb117c8-54d8-4455-b500-aa099afee8eb</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcb1cfd6-55c3-48fd-b012-0045846a3c6e</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06c554c3-8dce-4a79-bd0d-f88c62ba92a8</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b87d3b2-b6a0-44b3-aad1-cd45683b31c5</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad87f313-8293-4f23-86d2-b1ad5ec334f4</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>810a912c-bdee-4b04-a176-231f740860d3</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>459ec868-79c2-44e1-9df2-18573c8a3656</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29b8b9ff-2a8f-45d6-8b93-abdaeaeefb93</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dd8dd91-62d5-4d52-adcc-086df0aa3c11</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c5ea05e-9737-45ac-ac8b-c6bef32c6983</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c961799-0653-4525-8183-6751c62141b8</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>690ab48d-faae-419b-910a-b9b81cb3becf</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74e02733-a521-426e-a125-cf029472b817</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0506d75f-0a8f-477d-8600-c0b9faf29886</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb353a71-619f-44dc-a8fa-ea152e1c5da4</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>D_Small_Filled</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small_Filled" description="Diode, small symbol, filled shape"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol, filled shape"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59d36c2d-1840-4016-aa83-50c31a5fb033</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e322eb3-0bfa-4be7-996c-db8bfa467cb8</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c62dda2f-d897-455c-8c0a-ed16d490c50c</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a908a04-34f5-4427-9653-263da3fa1d9a</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b35954ab-92d9-4380-90a0-bd30046e76a8</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bbe554d-a75a-448e-bde4-8598b9c3793c</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c8cce4-845b-4662-be8a-7351fa0dc840</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>725549f6-6863-4f21-8f0c-bd1f735e22c3</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb7b7b1d-fb4f-48ea-835c-e6bc5bf38064</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-15S-0.5SH_1x15-1MP_P0.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46b8d8b7-3730-403b-9c50-b787b3c657b3</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-15S-0.5SH_1x15-1MP_P0.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3856fb3c-217f-46b3-80fc-2e2f41efb675</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-15S-0.5SH_1x15-1MP_P0.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4abf2fc5-4a22-4a31-a19b-f16ada4a3a13</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x40_Socket</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x40_Socket" description="Generic connector, single row, 01x40, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x40, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8797db1-0228-48ac-974f-2b484e7145fe</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8841bbb-df8f-4d51-9958-9b533a14812a</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdb85a25-f66b-4ff6-8252-49c80d50b764</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c56d5a2-0e29-4c25-a2d8-8ec05609a508</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6e4729c-86db-4d30-9ca8-662b34e36247</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69dac457-929a-4590-90e6-590634c20487</tstamps>
+    </comp>
+    <comp ref="RV6">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf4c0354-8013-41c1-ac3e-57a7a6d8a4a8</tstamps>
+    </comp>
+    <comp ref="RV7">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9476fa0-abab-4260-99c0-236fcbb0953b</tstamps>
+    </comp>
+    <comp ref="RV8">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9a6c99d-99bc-4f99-9f8a-82994c60dfa4</tstamps>
+    </comp>
+    <comp ref="RV9">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5248ad41-1385-417b-a449-91cbe8e773cd</tstamps>
+    </comp>
+    <comp ref="RV10">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a58f2bcc-6b59-4096-90b1-c187dd5809ed</tstamps>
+    </comp>
+    <comp ref="RV11">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e74f67a-75bb-4e22-a3e7-b653fc48769e</tstamps>
+    </comp>
+    <comp ref="RV12">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5256f38-c496-4a20-922a-2ccbcaa3323f</tstamps>
+    </comp>
+    <comp ref="RV13">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95fcfcf0-fcbd-47f0-98ea-9e9cb114258a</tstamps>
+    </comp>
+    <comp ref="RV14">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e307a65e-ebbe-4934-b9a0-6d5e2803103e</tstamps>
+    </comp>
+    <comp ref="RV15">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d88e1945-7f98-43ec-a9de-a420666e9db4</tstamps>
+    </comp>
+    <comp ref="RV16">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebf10053-cbca-4f72-8a30-9b146fe1a1dd</tstamps>
+    </comp>
+    <comp ref="RV17">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31b2623f-ff71-4bfb-a961-11c1bcabdb6b</tstamps>
+    </comp>
+    <comp ref="RV18">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19cee6e8-d722-4a52-a7db-cff3f80d4cbc</tstamps>
+    </comp>
+    <comp ref="RV19">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>083e4999-2cf8-4da2-a12a-8e26e11b7d89</tstamps>
+    </comp>
+    <comp ref="RV20">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e2e1121-7307-440c-8d08-38f9503fc21f</tstamps>
+    </comp>
+    <comp ref="RV21">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f8ab193-28b3-4f05-a7df-805e95509a4c</tstamps>
+    </comp>
+    <comp ref="RV22">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32708ab5-290a-4578-9cb9-8c29c0431a2f</tstamps>
+    </comp>
+    <comp ref="RV23">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5a0b6e0-9219-4433-9c3b-d1c66137c358</tstamps>
+    </comp>
+    <comp ref="RV24">
+      <value>RV142FPF-40B1</value>
+      <footprint>MPP_Potentiometer_THT:RV142FPF-40B1</footprint>
+      <datasheet>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</datasheet>
+      <libsource lib="MPP_Device" part="RV142FPF-40B1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_keywords" value="rotary potentiometer switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7cee0bc-d53b-46cc-b239-1d7b87df46f7</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TMUX1209_TSSOP</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux1209.pdf?ts=1711160247100&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX1209</datasheet>
+      <libsource lib="MPP_Analog_Switch" part="TMUX1209_TSSOP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18df7748-97b1-4a26-9e36-954dfe0943c0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TMUX1209_TSSOP</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux1209.pdf?ts=1711160247100&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX1209</datasheet>
+      <libsource lib="MPP_Analog_Switch" part="TMUX1209_TSSOP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb5295e7-1125-49df-87ff-e47efe420801</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TMUX1209_TSSOP</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux1209.pdf?ts=1711160247100&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX1209</datasheet>
+      <libsource lib="MPP_Analog_Switch" part="TMUX1209_TSSOP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2efe2c62-b985-48c2-be49-dd3d8dfde83d</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TMUX1209_TSSOP</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux1209.pdf?ts=1711160247100&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX1209</datasheet>
+      <libsource lib="MPP_Analog_Switch" part="TMUX1209_TSSOP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c2d80d9-5e01-4218-848e-ef5412f30b93</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TMUX1209_TSSOP</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux1209.pdf?ts=1711160247100&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX1209</datasheet>
+      <libsource lib="MPP_Analog_Switch" part="TMUX1209_TSSOP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>773e8936-3c18-48e6-9311-e54011127ac7</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TMUX1209_TSSOP</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmux1209.pdf?ts=1711160247100&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX1209</datasheet>
+      <libsource lib="MPP_Analog_Switch" part="TMUX1209_TSSOP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b05c812-c4c7-4089-b31f-1044ea80824d</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>74HC164</value>
+      <footprint>Package_SO:SO-14_3.9x8.65mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf</datasheet>
+      <libsource lib="74xx" part="74HC164" description="8-bit serial-in parallel-out shift register"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="8-bit serial-in parallel-out shift register"/>
+      <property name="ki_keywords" value="8-bit shift register"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>839481a9-caed-420e-a3f9-810a48d8a065</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>CD74HC154_SOIC</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/cd74hc154.pdf</datasheet>
+      <libsource lib="MPP_74xx" part="CD74HC154_SOIC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28ea5821-4127-4e21-b037-84691cb89d1c</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>CD74HC154_SOIC</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/cd74hc154.pdf</datasheet>
+      <libsource lib="MPP_74xx" part="CD74HC154_SOIC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f96db744-aad7-4202-be1e-5f7b13cf4157</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>74LVC1G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf</datasheet>
+      <libsource lib="74xGxx" part="74LVC1G04" description="Single NOT Gate, Low-Voltage CMOS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_pot-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Single NOT Gate, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Single Gate NOT LVC CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dad283bd-b893-4041-9d21-ad06edbc0d12</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74LVC1G04">
+      <description>Single NOT Gate, Low-Voltage CMOS</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>Texas?R-PDSO-G5?DCK*</fp>
+        <fp>Texas?R-PDSO-N5?DRL*</fp>
+        <fp>Texas?X2SON*0.8x0.8mm*P0.48mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G04</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf</field>
+      </fields>
+      <pins>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HC164">
+      <description>8-bit serial-in parallel-out shift register</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7*P1.27mm*</fp>
+        <fp>?SSOP*P0.65mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC164</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DSA" type="input"/>
+        <pin num="2" name="DSB" type="input"/>
+        <pin num="3" name="Q0" type="output"/>
+        <pin num="4" name="Q1" type="output"/>
+        <pin num="5" name="Q2" type="output"/>
+        <pin num="6" name="Q3" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="CP" type="input"/>
+        <pin num="9" name="~{MR}" type="input"/>
+        <pin num="10" name="Q4" type="output"/>
+        <pin num="11" name="Q5" type="output"/>
+        <pin num="12" name="Q6" type="output"/>
+        <pin num="13" name="Q7" type="output"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x15_Socket">
+      <description>Generic connector, single row, 01x15, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x40_Socket">
+      <description>Generic connector, single row, 01x40, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x40_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small_Filled">
+      <description>Diode, small symbol, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small_Filled</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MPP_74xx" part="CD74HC154_SOIC">
+      <docs>https://www.ti.com/lit/ds/symlink/cd74hc154.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD74HC154_SOIC</field>
+        <field name="Footprint">Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/cd74hc154.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{Y0}" type="output"/>
+        <pin num="2" name="~{Y1}" type="output"/>
+        <pin num="3" name="~{Y2}" type="output"/>
+        <pin num="4" name="~{Y3}" type="output"/>
+        <pin num="5" name="~{Y4}" type="output"/>
+        <pin num="6" name="~{Y5}" type="output"/>
+        <pin num="7" name="~{Y6}" type="output"/>
+        <pin num="8" name="~{Y7}" type="output"/>
+        <pin num="9" name="~{Y8}" type="output"/>
+        <pin num="10" name="~{Y9}" type="output"/>
+        <pin num="11" name="~{Y10}" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="~{Y11}" type="output"/>
+        <pin num="14" name="~{Y12}" type="output"/>
+        <pin num="15" name="~{Y13}" type="output"/>
+        <pin num="16" name="~{Y14}" type="output"/>
+        <pin num="17" name="~{Y15}" type="output"/>
+        <pin num="18" name="~{E1}" type="input"/>
+        <pin num="19" name="~{E2}" type="input"/>
+        <pin num="20" name="A3" type="input"/>
+        <pin num="21" name="A2" type="input"/>
+        <pin num="22" name="A1" type="input"/>
+        <pin num="23" name="A0" type="input"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MPP_Analog_Switch" part="TMUX1209_TSSOP">
+      <docs>https://www.ti.com/lit/ds/symlink/tmux1209.pdf?ts=1711160247100&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX1209</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMUX1209_TSSOP</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tmux1209.pdf?ts=1711160247100&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX1209</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="4" name="S1A" type="bidirectional"/>
+        <pin num="5" name="S2A" type="bidirectional"/>
+        <pin num="6" name="S3A" type="bidirectional"/>
+        <pin num="7" name="S4A" type="bidirectional"/>
+        <pin num="8" name="DA" type="bidirectional"/>
+        <pin num="9" name="DB" type="bidirectional"/>
+        <pin num="10" name="S4B" type="bidirectional"/>
+        <pin num="11" name="S3B" type="bidirectional"/>
+        <pin num="12" name="S2B" type="bidirectional"/>
+        <pin num="13" name="S1B" type="bidirectional"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="A1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MPP_Device" part="RV142FPF-40B1">
+      <docs>http://www.taiwanalpha.com/downloads?target=products&amp;id=93</docs>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">RV142FPF-40B1</field>
+        <field name="Footprint">MPP_Potentiometer_THT:RV142FPF-40B1</field>
+        <field name="Datasheet">http://www.taiwanalpha.com/downloads?target=products&amp;id=93</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="RV_1_2" type="passive"/>
+        <pin num="3" name="VCC" type="passive"/>
+        <pin num="4" name="RV_2_2" type="passive"/>
+        <pin num="5" name="SW_1" type="passive"/>
+        <pin num="6" name="SW_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MPP_Mechanical" part="MountingHole_Pad_M2.5">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad_M2.5</field>
+        <field name="Footprint">MPP_MountingHole:MountingHole_M2.5</field>
+      </fields>
+      <pins>
+        <pin num="MP" name="MP" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MPP_74xx">
+      <uri>C:\Users\marcp\OneDrive - Marc Powell\KiCad\symbols/MPP_74xx.kicad_sym</uri>
+    </library>
+    <library logical="MPP_Analog_Switch">
+      <uri>C:\Users\marcp\OneDrive - Marc Powell\KiCad\symbols/MPP_Analog_Switch.kicad_sym</uri>
+    </library>
+    <library logical="MPP_Device">
+      <uri>C:\Users\marcp\OneDrive - Marc Powell\KiCad\symbols/MPP_Device.kicad_sym</uri>
+    </library>
+    <library logical="MPP_Mechanical">
+      <uri>C:\Users\marcp\OneDrive - Marc Powell\KiCad\symbols/MPP_Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV10" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV11" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV12" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV13" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV14" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV15" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV16" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV17" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV18" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV19" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV20" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV21" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV22" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV23" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV24" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV5" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV6" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV7" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV8" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="RV9" pin="3" pinfunction="VCC" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="24" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3.3VP">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="3" name="/A_{0_1}">
+      <node ref="RV1" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="S1A" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/A_{0_2}">
+      <node ref="RV1" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="S1B" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/A_{1_1}">
+      <node ref="RV2" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="S2A" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/A_{1_2}">
+      <node ref="RV2" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="S2B" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/A_{2_1}">
+      <node ref="RV3" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="S3A" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/A_{2_2}">
+      <node ref="RV3" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="S3B" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/A_{3_1}">
+      <node ref="RV4" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="S4A" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/A_{3_2}">
+      <node ref="RV4" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="S4B" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/A_{4_1}">
+      <node ref="RV5" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="S1A" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/A_{4_2}">
+      <node ref="RV5" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="S1B" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/A_{5_1}">
+      <node ref="RV6" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="S2A" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/A_{5_2}">
+      <node ref="RV6" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="S2B" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/A_{6_1}">
+      <node ref="RV7" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="S3A" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/A_{6_2}">
+      <node ref="RV7" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="S3B" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/A_{7_1}">
+      <node ref="RV8" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="S4A" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/A_{7_2}">
+      <node ref="RV8" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="S4B" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/A_{8_1}">
+      <node ref="RV9" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="S1A" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/A_{8_2}">
+      <node ref="RV9" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="S1B" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/A_{9_1}">
+      <node ref="RV10" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="S2A" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/A_{9_2}">
+      <node ref="RV10" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="S2B" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/A_{10_1}">
+      <node ref="RV11" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="S3A" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/A_{10_2}">
+      <node ref="RV11" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="S3B" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/A_{11_1}">
+      <node ref="RV12" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="S4A" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/A_{11_2}">
+      <node ref="RV12" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="S4B" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/A_{12_1}">
+      <node ref="RV13" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="S1A" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/A_{12_2}">
+      <node ref="RV13" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="S1B" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/A_{13_1}">
+      <node ref="RV14" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="S2A" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/A_{13_2}">
+      <node ref="RV14" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="S2B" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/A_{14_1}">
+      <node ref="RV15" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="S3A" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/A_{14_2}">
+      <node ref="RV15" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="S3B" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/A_{15_1}">
+      <node ref="RV16" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="S4A" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/A_{15_2}">
+      <node ref="RV16" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="S4B" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/A_{16_1}">
+      <node ref="RV17" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="S1A" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/A_{16_2}">
+      <node ref="RV17" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="S1B" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/A_{17_1}">
+      <node ref="RV18" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="S2A" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/A_{17_2}">
+      <node ref="RV18" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="S2B" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/A_{18_1}">
+      <node ref="RV19" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="S3A" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/A_{18_2}">
+      <node ref="RV19" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="S3B" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/A_{19_1}">
+      <node ref="RV20" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="S4A" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/A_{19_2}">
+      <node ref="RV20" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="S4B" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/A_{20_1}">
+      <node ref="RV21" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="S1A" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/A_{20_2}">
+      <node ref="RV21" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="S1B" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/A_{21_1}">
+      <node ref="RV22" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="S2A" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/A_{21_2}">
+      <node ref="RV22" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="S2B" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/A_{22_1}">
+      <node ref="RV23" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="S3A" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/A_{22_2}">
+      <node ref="RV23" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="S3B" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/A_{23_1}">
+      <node ref="RV24" pin="2" pinfunction="RV_1_2" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="S4A" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/A_{23_2}">
+      <node ref="RV24" pin="4" pinfunction="RV_2_2" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="S4B" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/COL_0">
+      <node ref="RV1" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV17" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV9" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="Q0" pintype="output"/>
+    </net>
+    <net code="52" name="/COL_1">
+      <node ref="RV10" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV18" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV2" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="Q1" pintype="output"/>
+    </net>
+    <net code="53" name="/COL_2">
+      <node ref="RV11" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV19" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV3" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="Q2" pintype="output"/>
+    </net>
+    <net code="54" name="/COL_3">
+      <node ref="RV12" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV20" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV4" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="Q3" pintype="output"/>
+    </net>
+    <net code="55" name="/COL_4">
+      <node ref="RV13" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV21" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV5" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="Q4" pintype="output"/>
+    </net>
+    <net code="56" name="/COL_5">
+      <node ref="RV14" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV22" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV6" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="Q5" pintype="output"/>
+    </net>
+    <net code="57" name="/COL_6">
+      <node ref="RV15" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV23" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV7" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="Q6" pintype="output"/>
+    </net>
+    <net code="58" name="/COL_7">
+      <node ref="RV16" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV24" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="RV8" pin="5" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="Q7" pintype="output"/>
+    </net>
+    <net code="59" name="/CS_0">
+      <node ref="J4" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="U8" pin="23" pinfunction="A0" pintype="input"/>
+      <node ref="U9" pin="23" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="60" name="/CS_1">
+      <node ref="J4" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="U8" pin="22" pinfunction="A1" pintype="input"/>
+      <node ref="U9" pin="22" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="61" name="/CS_2">
+      <node ref="J4" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="U8" pin="21" pinfunction="A2" pintype="input"/>
+      <node ref="U9" pin="21" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="62" name="/CS_3">
+      <node ref="J4" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="U8" pin="20" pinfunction="A3" pintype="input"/>
+      <node ref="U9" pin="20" pinfunction="A3" pintype="input"/>
+    </net>
+    <net code="63" name="/CS_4">
+      <node ref="J4" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="U10" pin="2" pintype="input"/>
+      <node ref="U8" pin="18" pinfunction="~{E1}" pintype="input"/>
+    </net>
+    <net code="64" name="/CS_EN">
+      <node ref="J4" pin="40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="U8" pin="19" pinfunction="~{E2}" pintype="input"/>
+      <node ref="U9" pin="19" pinfunction="~{E2}" pintype="input"/>
+    </net>
+    <net code="65" name="/DC">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="33" pinfunction="Pin_33" pintype="passive"/>
+    </net>
+    <net code="66" name="/DSP_0_CS">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="~{Y0}" pintype="output"/>
+    </net>
+    <net code="67" name="/DSP_1_CS">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="~{Y1}" pintype="output"/>
+    </net>
+    <net code="68" name="/DSP_2_CS">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="~{Y2}" pintype="output"/>
+    </net>
+    <net code="69" name="/DSP_3_CS">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="~{Y3}" pintype="output"/>
+    </net>
+    <net code="70" name="/DSP_4_CS">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="~{Y4}" pintype="output"/>
+    </net>
+    <net code="71" name="/DSP_5_CS">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="~{Y5}" pintype="output"/>
+    </net>
+    <net code="72" name="/DSP_6_CS">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="~{Y6}" pintype="output"/>
+    </net>
+    <net code="73" name="/DSP_7_CS">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="~{Y7}" pintype="output"/>
+    </net>
+    <net code="74" name="/DSP_8_CS">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="~{Y8}" pintype="output"/>
+    </net>
+    <net code="75" name="/DSP_9_CS">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U8" pin="10" pinfunction="~{Y9}" pintype="output"/>
+    </net>
+    <net code="76" name="/DSP_10_CS">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U8" pin="11" pinfunction="~{Y10}" pintype="output"/>
+    </net>
+    <net code="77" name="/DSP_11_CS">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U8" pin="13" pinfunction="~{Y11}" pintype="output"/>
+    </net>
+    <net code="78" name="/DSP_12_CS">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U8" pin="14" pinfunction="~{Y12}" pintype="output"/>
+    </net>
+    <net code="79" name="/DSP_13_CS">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U8" pin="15" pinfunction="~{Y13}" pintype="output"/>
+    </net>
+    <net code="80" name="/DSP_14_CS">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U8" pin="16" pinfunction="~{Y14}" pintype="output"/>
+    </net>
+    <net code="81" name="/DSP_15_CS">
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U8" pin="17" pinfunction="~{Y15}" pintype="output"/>
+    </net>
+    <net code="82" name="/DSP_16_CS">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="~{Y0}" pintype="output"/>
+    </net>
+    <net code="83" name="/DSP_17_CS">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="~{Y1}" pintype="output"/>
+    </net>
+    <net code="84" name="/DSP_18_CS">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="~{Y2}" pintype="output"/>
+    </net>
+    <net code="85" name="/DSP_19_CS">
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="~{Y3}" pintype="output"/>
+    </net>
+    <net code="86" name="/DSP_20_CS">
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="~{Y4}" pintype="output"/>
+    </net>
+    <net code="87" name="/DSP_21_CS">
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="~{Y5}" pintype="output"/>
+    </net>
+    <net code="88" name="/DSP_22_CS">
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="~{Y6}" pintype="output"/>
+    </net>
+    <net code="89" name="/DSP_23_CS">
+      <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="~{Y7}" pintype="output"/>
+    </net>
+    <net code="90" name="/KEY_CLK">
+      <node ref="J4" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="CP" pintype="input"/>
+    </net>
+    <net code="91" name="/KEY_SER">
+      <node ref="J4" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="DSA" pintype="input"/>
+      <node ref="U7" pin="2" pinfunction="DSB" pintype="input"/>
+    </net>
+    <net code="92" name="/MISO">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="93" name="/MOSI">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="94" name="/POT_SEL_0">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="95" name="/POT_SEL_1">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="U4" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="U5" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="U6" pin="16" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="96" name="/POT_SEL_EN">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="97" name="/POT_{0_1}">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="DA" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="/POT_{0_2}">
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="DB" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="/POT_{1_1}">
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="DA" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="/POT_{1_2}">
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="DB" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="/POT_{2_1}">
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="DA" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="/POT_{2_2}">
+      <node ref="J4" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="DB" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="/POT_{3_1}">
+      <node ref="J4" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="DA" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="/POT_{3_2}">
+      <node ref="J4" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="DB" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="/POT_{4_1}">
+      <node ref="J4" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="DA" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="/POT_{4_2}">
+      <node ref="J4" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="DB" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="/POT_{5_1}">
+      <node ref="J4" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="DA" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="/POT_{5_2}">
+      <node ref="J4" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="DB" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="/ROW_1">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="110" name="/ROW_2">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="28" pinfunction="Pin_28" pintype="passive"/>
+    </net>
+    <net code="111" name="/ROW_3">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="112" name="/SCLK">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="30" pinfunction="Pin_30" pintype="passive"/>
+    </net>
+    <net code="113" name="/~{KEY_CLEAR}">
+      <node ref="J4" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="~{MR}" pintype="input"/>
+    </net>
+    <net code="114" name="/~{OLED_RST}">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="34" pinfunction="Pin_34" pintype="passive"/>
+    </net>
+    <net code="115" name="GND">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV10" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV11" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV12" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV13" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV14" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV15" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV16" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV17" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV18" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV19" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV20" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV21" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV22" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV23" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV24" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV5" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV6" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV7" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV8" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV9" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="12" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="116" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV1" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="117" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV2" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="118" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV3" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="119" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV4" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="120" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV5" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="121" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV6" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="122" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV7" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="123" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV8" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="124" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV9" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="125" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV10" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="126" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV11" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="127" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV12" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="128" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV13" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="129" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV14" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="130" name="Net-(D15-A)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV15" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="131" name="Net-(D16-A)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV16" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="132" name="Net-(D17-A)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV17" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="133" name="Net-(D18-A)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV18" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="134" name="Net-(D19-A)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV19" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="135" name="Net-(D20-A)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV20" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="136" name="Net-(D21-A)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV21" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="137" name="Net-(D22-A)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV22" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="138" name="Net-(D23-A)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV23" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="139" name="Net-(D24-A)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV24" pin="6" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="140" name="Net-(U9-~{E1})">
+      <node ref="U10" pin="4" pintype="output"/>
+      <node ref="U9" pin="18" pinfunction="~{E1}" pintype="input"/>
+    </net>
+    <net code="141" name="unconnected-(H1-PadMP)">
+      <node ref="H1" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(H2-PadMP)">
+      <node ref="H2" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(H3-PadMP)">
+      <node ref="H3" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(H4-PadMP)">
+      <node ref="H4" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(H5-PadMP)">
+      <node ref="H5" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(H6-PadMP)">
+      <node ref="H6" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(H7-PadMP)">
+      <node ref="H7" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(H8-PadMP)">
+      <node ref="H8" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U9-~{Y8}-Pad9)">
+      <node ref="U9" pin="9" pinfunction="~{Y8}" pintype="output+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U9-~{Y9}-Pad10)">
+      <node ref="U9" pin="10" pinfunction="~{Y9}" pintype="output+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U9-~{Y10}-Pad11)">
+      <node ref="U9" pin="11" pinfunction="~{Y10}" pintype="output+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U9-~{Y11}-Pad13)">
+      <node ref="U9" pin="13" pinfunction="~{Y11}" pintype="output+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U9-~{Y12}-Pad14)">
+      <node ref="U9" pin="14" pinfunction="~{Y12}" pintype="output+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U9-~{Y13}-Pad15)">
+      <node ref="U9" pin="15" pinfunction="~{Y13}" pintype="output+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U9-~{Y14}-Pad16)">
+      <node ref="U9" pin="16" pinfunction="~{Y14}" pintype="output+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U9-~{Y15}-Pad17)">
+      <node ref="U9" pin="17" pinfunction="~{Y15}" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,12 @@
+"Source:","C:\Users\marcp\OneDrive - Marc Powell\Projects\midi-controller\PCB_Design\midi-controller_oled-board_teensy\midi-controller_oled-board_teensy.kicad_sch"
+"Date:","5/14/2024 7:09:38 PM"
+"Tool:","Eeschema 7.0.7"
+"Generator:","C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","11"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP"
+"1","8","DS1, DS2, DS3, DS4, DS5, DS6, DS7, DS8","CFAL12832C-0091B-W","MPP_Display_Graphic:CFAL12832C-0091B-W","MPP_Display:CFAL12832C-0091B-W","file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf",""
+"2","2","H1, H2","MountingHole_Pad_M2.5","MPP_Mechanical:MountingHole_Pad_M2.5","MPP_MountingHole:MountingHole_M2.5","",""
+"3","1","J1","Conn_01x15_Socket","Connector:Conn_01x15_Socket","Connector_FFC-FPC:Hirose_FH12-15S-0.5SH_1x15-1MP_P0.50mm_Horizontal","~",""

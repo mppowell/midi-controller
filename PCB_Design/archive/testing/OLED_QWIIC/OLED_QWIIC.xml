@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\marcp\OneDrive - Marc Powell\Projects\midi-controller\PCB_Design\OLED_QWIIC\OLED_QWIIC.kicad_sch</source>
+    <date>9/17/2023 12:24:29 AM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OLED_QWIIC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1ac3a12-d1e6-45f9-8549-11c8a7f82d8d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ea23061-0919-4b6c-8531-dc60f1871586</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a49d53ea-9176-4583-9e04-e985390deca9</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>489930a8-ae4d-48e5-92ea-5698a7ac39ff</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a751b554-6d1c-499e-ab8a-8125a53d77df</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>991818e7-39a7-4eaa-9f16-2ce3ed785453</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bb2efbe-fae1-48df-af9d-dc7591af540d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>692c4f54-bcf3-42c6-bd7e-bf8faf403972</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51f8bbb7-3a6e-4546-9975-f62d7ae9d3e2</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e997a7a-cf29-4094-bbbf-028d5e11d446</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3df7a21-a407-43b4-8a92-2076e8a4a4ba</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32e57a6b-9ef7-4282-80ba-950989b68a26</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4728bd02-d0d9-4a33-bb65-df8c9f3b5ab4</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1fc90d5-209c-4b52-a42e-d0461988c34c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6b6c9e3-c7cf-4c0c-988e-2e9d09ee744e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ff33c59-25fc-404a-9224-be3180063fa8</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef1a9b0d-65fd-4a83-8ebe-d6cf1768a625</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f56d895-c06e-4f99-bde5-a30a3d13e9ab</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9104b02-74cf-45e9-87b3-b55bde001962</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b902f83c-939e-467e-9e23-40757020da7c</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09709ee2-4021-4fe7-b32e-2774799f0cff</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4efc5c0f-c8cc-4b2a-8c73-6fb38a9539c8</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99f00c2c-c316-49df-b73b-d89bdaa9c42b</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99a86a9d-1dd1-4544-b21e-83b9f751e210</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5150969b-863a-4ac9-b18c-28f3ade14037</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>992f04a0-c425-4c3e-a806-f04e12557f00</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7009028d-32a5-4ecf-ac4d-f84406091c2d</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>491333b6-dc69-4951-9b5e-cbda5b8f2115</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30089314-8d46-4e80-bc6f-cd8f34eff61b</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53b96b91-f5a6-4e0f-8831-62bbc88fcb6c</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>764b656d-abc7-417f-a058-77897c34f748</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37510e72-f4e8-47b2-b343-279edcc27b9d</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d22143ce-a3f3-4923-b695-79bb15e89c34</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86f987d6-7888-44ed-8281-d6549eaa345d</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>112a7213-6f8d-484c-b427-6cfb0c4eb13b</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0178e48-0029-4cee-963a-48790756dacb</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e962843-7def-473c-b507-ec8b9a80d4b7</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d415038-4c63-42cb-8e22-618f75961f7d</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0afccbfa-96ef-4c80-8c23-bb6b7122be0a</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>231e5c25-fddd-4af7-a290-db250d2baaca</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0963759-4ac9-4039-9216-cd417d1d2c0b</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df82078d-ce27-4449-8a24-cca4c593b5a7</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d327b5d3-e086-4bf4-b496-7c05cbc04de1</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbd6ad2f-eb4d-409c-8dcb-875bff62e8e1</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>159da233-b4c9-45a0-b6bf-d692d0a017e8</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1809578f-ef4f-4fbe-8363-6af42df22f32</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a63de11-3e69-4c5b-bd18-d58f042e86d2</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dc6a0e2-06dd-49bd-8ed5-5d771b2e74b6</tstamps>
+    </comp>
+    <comp ref="DS1">
+      <value>OLED 128x32</value>
+      <footprint>Display_MPP:CFAL12832D-CW_WRAPUNDER</footprint>
+      <libsource lib="Display_Graphic_MPP" part="CFAL12832D-CW" description="SSD1306 based OLED module 128x32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 based OLED module 128x32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b6d3ae7-9778-40cd-bd69-44a674a978cf</tstamps>
+    </comp>
+    <comp ref="DS2">
+      <value>OLED 128x32</value>
+      <footprint>Display_MPP:CFAL12832D-CW_WRAPUNDER</footprint>
+      <libsource lib="Display_Graphic_MPP" part="CFAL12832D-CW" description="SSD1306 based OLED module 128x32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 based OLED module 128x32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>515061e2-72ba-4ba7-aa70-2eea97c644f2</tstamps>
+    </comp>
+    <comp ref="DS3">
+      <value>OLED 128x32</value>
+      <footprint>Display_MPP:CFAL12832D-CW_WRAPUNDER</footprint>
+      <libsource lib="Display_Graphic_MPP" part="CFAL12832D-CW" description="SSD1306 based OLED module 128x32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 based OLED module 128x32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1ca7422-c813-4fce-8a64-f12e2b55474a</tstamps>
+    </comp>
+    <comp ref="DS4">
+      <value>OLED 128x32</value>
+      <footprint>Display_MPP:CFAL12832D-CW_WRAPUNDER</footprint>
+      <libsource lib="Display_Graphic_MPP" part="CFAL12832D-CW" description="SSD1306 based OLED module 128x32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 based OLED module 128x32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b4430e4-c09a-4319-a172-0cb30e3d24d9</tstamps>
+    </comp>
+    <comp ref="DS5">
+      <value>OLED 128x32</value>
+      <footprint>Display_MPP:CFAL12832D-CW_WRAPUNDER</footprint>
+      <libsource lib="Display_Graphic_MPP" part="CFAL12832D-CW" description="SSD1306 based OLED module 128x32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 based OLED module 128x32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ba3bd00-a034-43aa-b399-59c4459920ff</tstamps>
+    </comp>
+    <comp ref="DS6">
+      <value>OLED 128x32</value>
+      <footprint>Display_MPP:CFAL12832D-CW_WRAPUNDER</footprint>
+      <libsource lib="Display_Graphic_MPP" part="CFAL12832D-CW" description="SSD1306 based OLED module 128x32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 based OLED module 128x32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad273660-5f8c-4ae4-8726-492dd609ed16</tstamps>
+    </comp>
+    <comp ref="DS7">
+      <value>OLED 128x32</value>
+      <footprint>Display_MPP:CFAL12832D-CW_WRAPUNDER</footprint>
+      <libsource lib="Display_Graphic_MPP" part="CFAL12832D-CW" description="SSD1306 based OLED module 128x32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 based OLED module 128x32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4399ec7f-da39-4e0f-8644-e63cd75acb2e</tstamps>
+    </comp>
+    <comp ref="DS8">
+      <value>OLED 128x32</value>
+      <footprint>Display_MPP:CFAL12832D-CW_WRAPUNDER</footprint>
+      <libsource lib="Display_Graphic_MPP" part="CFAL12832D-CW" description="SSD1306 based OLED module 128x32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 based OLED module 128x32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ce3c57f-ef34-4875-a236-648f429785b4</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_Dual_NMOS_S1G1D2S2G2D1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <libsource lib="Device" part="Q_Dual_NMOS_S1G1D2S2G2D1" description="Dual NMOS transistor, 6 pin package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Dual NMOS transistor, 6 pin package"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c44a46d0-c038-411c-b9d4-c7f4253e2857 54c93f8d-5e55-4eca-a169-78a1e37e9726</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2191eeaf-ac3f-4064-bec9-1d53c3bece00</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>330k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>372707e3-1c98-46f5-b680-f86186328087</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3219547-dd5d-4b22-8064-23bae3432f80</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7403e6a7-1a2b-4f97-bd9c-07570000594f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7ea519e-db3d-4e49-99bd-aac860420f98</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f292cc83-34b5-487f-9758-e431686093ba</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>330k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05f2aeff-07d9-4624-8fb6-2c27105fbac0</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>330k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1407a33d-78fc-4e36-b439-d2032f68a8a5</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aed592e8-56e2-4c1b-a50b-655b4e16b497</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e26a671-6afd-4847-8179-e2559df560f0</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>135024c7-450a-4688-b725-067befac7603</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_QWIIC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72a0d9e1-786b-4b65-ac4c-4eebe64e1fcf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_Dual_NMOS_S1G1D2S2G2D1">
+      <description>Dual NMOS transistor, 6 pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TSOP*</fp>
+        <fp>SC?70*</fp>
+        <fp>SC?88*</fp>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_Dual_NMOS_S1G1D2S2G2D1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="G" type="input"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Graphic_MPP" part="CFAL12832D-CW">
+      <description>SSD1306 based OLED module 128x32</description>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">OLED 128x32</field>
+        <field name="Footprint">Display_MPP:CFAL12832D-CW_WRAPUNDER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C2P" type="bidirectional"/>
+        <pin num="2" name="C2N" type="bidirectional"/>
+        <pin num="3" name="C1P" type="bidirectional"/>
+        <pin num="4" name="C1N" type="bidirectional"/>
+        <pin num="5" name="V_BAT" type="power_in"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="~{RES}" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+        <pin num="11" name="SDA" type="bidirectional"/>
+        <pin num="12" name="I_REF" type="bidirectional"/>
+        <pin num="13" name="V_COMH" type="bidirectional"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Display_Graphic_MPP">
+      <uri>C:\Users\marcp\OneDrive - Marc Powell\KiCad\symbols/Display_Graphic_MPP.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="5" pinfunction="V_BAT" pintype="power_in"/>
+      <node ref="DS1" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS2" pin="5" pinfunction="V_BAT" pintype="power_in"/>
+      <node ref="DS2" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS3" pin="5" pinfunction="V_BAT" pintype="power_in"/>
+      <node ref="DS3" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS4" pin="5" pinfunction="V_BAT" pintype="power_in"/>
+      <node ref="DS4" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS5" pin="5" pinfunction="V_BAT" pintype="power_in"/>
+      <node ref="DS5" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS6" pin="5" pinfunction="V_BAT" pintype="power_in"/>
+      <node ref="DS6" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS7" pin="5" pinfunction="V_BAT" pintype="power_in"/>
+      <node ref="DS7" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS8" pin="5" pinfunction="V_BAT" pintype="power_in"/>
+      <node ref="DS8" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="Q1" pin="5" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/RES_3.3V">
+      <node ref="DS1" pin="9" pinfunction="~{RES}" pintype="bidirectional"/>
+      <node ref="DS2" pin="9" pinfunction="~{RES}" pintype="bidirectional"/>
+      <node ref="DS3" pin="9" pinfunction="~{RES}" pintype="bidirectional"/>
+      <node ref="DS4" pin="9" pinfunction="~{RES}" pintype="bidirectional"/>
+      <node ref="DS5" pin="9" pinfunction="~{RES}" pintype="bidirectional"/>
+      <node ref="DS6" pin="9" pinfunction="~{RES}" pintype="bidirectional"/>
+      <node ref="DS7" pin="9" pinfunction="~{RES}" pintype="bidirectional"/>
+      <node ref="DS8" pin="9" pinfunction="~{RES}" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/SCL_3.3V">
+      <node ref="DS1" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="DS2" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="DS3" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="DS4" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="DS5" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="DS6" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="DS7" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="DS8" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/SDA">
+      <node ref="Q1" pin="4" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/SDA_3.3V">
+      <node ref="DS1" pin="11" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="DS2" pin="11" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="DS3" pin="11" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="DS4" pin="11" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="DS5" pin="11" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="DS6" pin="11" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="DS7" pin="11" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="DS8" pin="11" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="DS1" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DS2" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DS3" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DS4" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DS5" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DS6" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DS7" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DS8" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(DS1-C1N)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="DS1" pin="4" pinfunction="C1N" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(DS1-C1P)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="3" pinfunction="C1P" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(DS1-C2N)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="DS1" pin="2" pinfunction="C2N" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(DS1-C2P)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="1" pinfunction="C2P" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(DS1-I_REF)">
+      <node ref="DS1" pin="12" pinfunction="I_REF" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(DS1-VCC)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="14" name="Net-(DS1-V_COMH)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="13" pinfunction="V_COMH" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(DS2-C1N)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="DS2" pin="4" pinfunction="C1N" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(DS2-C1P)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="DS2" pin="3" pinfunction="C1P" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(DS2-C2N)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="DS2" pin="2" pinfunction="C2N" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="Net-(DS2-C2P)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="DS2" pin="1" pinfunction="C2P" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(DS2-I_REF)">
+      <node ref="DS2" pin="12" pinfunction="I_REF" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(DS2-VCC)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="DS2" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="21" name="Net-(DS2-V_COMH)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="DS2" pin="13" pinfunction="V_COMH" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Net-(DS3-C1N)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="DS3" pin="4" pinfunction="C1N" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(DS3-C1P)">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="DS3" pin="3" pinfunction="C1P" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(DS3-C2N)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="DS3" pin="2" pinfunction="C2N" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(DS3-C2P)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="DS3" pin="1" pinfunction="C2P" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(DS3-I_REF)">
+      <node ref="DS3" pin="12" pinfunction="I_REF" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(DS3-VCC)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="DS3" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="28" name="Net-(DS3-V_COMH)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="DS3" pin="13" pinfunction="V_COMH" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(DS4-C1N)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="DS4" pin="4" pinfunction="C1N" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(DS4-C1P)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="DS4" pin="3" pinfunction="C1P" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(DS4-C2N)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="DS4" pin="2" pinfunction="C2N" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(DS4-C2P)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="DS4" pin="1" pinfunction="C2P" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(DS4-I_REF)">
+      <node ref="DS4" pin="12" pinfunction="I_REF" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(DS4-VCC)">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="DS4" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="35" name="Net-(DS4-V_COMH)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="DS4" pin="13" pinfunction="V_COMH" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(DS5-C1N)">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="DS5" pin="4" pinfunction="C1N" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(DS5-C1P)">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="DS5" pin="3" pinfunction="C1P" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(DS5-C2N)">
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="DS5" pin="2" pinfunction="C2N" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(DS5-C2P)">
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="DS5" pin="1" pinfunction="C2P" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(DS5-I_REF)">
+      <node ref="DS5" pin="12" pinfunction="I_REF" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(DS5-VCC)">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="DS5" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="42" name="Net-(DS5-V_COMH)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="DS5" pin="13" pinfunction="V_COMH" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(DS6-C1N)">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="DS6" pin="4" pinfunction="C1N" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(DS6-C1P)">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="DS6" pin="3" pinfunction="C1P" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(DS6-C2N)">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="DS6" pin="2" pinfunction="C2N" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(DS6-C2P)">
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="DS6" pin="1" pinfunction="C2P" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(DS6-I_REF)">
+      <node ref="DS6" pin="12" pinfunction="I_REF" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(DS6-VCC)">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="DS6" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="49" name="Net-(DS6-V_COMH)">
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="DS6" pin="13" pinfunction="V_COMH" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="Net-(DS7-C1N)">
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="DS7" pin="4" pinfunction="C1N" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(DS7-C1P)">
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="DS7" pin="3" pinfunction="C1P" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(DS7-C2N)">
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="DS7" pin="2" pinfunction="C2N" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(DS7-C2P)">
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="DS7" pin="1" pinfunction="C2P" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Net-(DS7-I_REF)">
+      <node ref="DS7" pin="12" pinfunction="I_REF" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(DS7-VCC)">
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="DS7" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="56" name="Net-(DS7-V_COMH)">
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="DS7" pin="13" pinfunction="V_COMH" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="Net-(DS8-C1N)">
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="DS8" pin="4" pinfunction="C1N" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Net-(DS8-C1P)">
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="DS8" pin="3" pinfunction="C1P" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="Net-(DS8-C2N)">
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="DS8" pin="2" pinfunction="C2N" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="Net-(DS8-C2P)">
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="DS8" pin="1" pinfunction="C2P" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="Net-(DS8-I_REF)">
+      <node ref="DS8" pin="12" pinfunction="I_REF" pintype="bidirectional"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(DS8-VCC)">
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="DS8" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="63" name="Net-(DS8-V_COMH)">
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="DS8" pin="13" pinfunction="V_COMH" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="VCC">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(DS1-NC-Pad6)">
+      <node ref="DS1" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(DS2-NC-Pad6)">
+      <node ref="DS2" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(DS3-NC-Pad6)">
+      <node ref="DS3" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(DS4-NC-Pad6)">
+      <node ref="DS4" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(DS5-NC-Pad6)">
+      <node ref="DS5" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(DS6-NC-Pad6)">
+      <node ref="DS6" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(DS7-NC-Pad6)">
+      <node ref="DS7" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(DS8-NC-Pad6)">
+      <node ref="DS8" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

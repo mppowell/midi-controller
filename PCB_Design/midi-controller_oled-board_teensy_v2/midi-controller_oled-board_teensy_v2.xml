@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\marcp\OneDrive - Marc Powell\Projects\midi-controller\PCB_Design\midi-controller_oled-board_teensy\midi-controller_oled-board_teensy.kicad_sch</source>
+    <date>5/14/2024 7:09:38 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>midi-controller_oled-board_teensy.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="DS1">
+      <value>CFAL12832C-0091B-W</value>
+      <footprint>MPP_Display:CFAL12832C-0091B-W</footprint>
+      <datasheet>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</datasheet>
+      <libsource lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f56c5f6-55a7-4489-ba9b-2b6eb9478184</tstamps>
+    </comp>
+    <comp ref="DS2">
+      <value>CFAL12832C-0091B-W</value>
+      <footprint>MPP_Display:CFAL12832C-0091B-W</footprint>
+      <datasheet>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</datasheet>
+      <libsource lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86f7d8b9-30f1-4a4f-bf8b-a8f00245d6f1</tstamps>
+    </comp>
+    <comp ref="DS3">
+      <value>CFAL12832C-0091B-W</value>
+      <footprint>MPP_Display:CFAL12832C-0091B-W</footprint>
+      <datasheet>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</datasheet>
+      <libsource lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d66ba58-4cc1-4ba6-a57b-e5e0048c410d</tstamps>
+    </comp>
+    <comp ref="DS4">
+      <value>CFAL12832C-0091B-W</value>
+      <footprint>MPP_Display:CFAL12832C-0091B-W</footprint>
+      <datasheet>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</datasheet>
+      <libsource lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f87a7739-d7fd-4e49-a5d8-4f215730e5e4</tstamps>
+    </comp>
+    <comp ref="DS5">
+      <value>CFAL12832C-0091B-W</value>
+      <footprint>MPP_Display:CFAL12832C-0091B-W</footprint>
+      <datasheet>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</datasheet>
+      <libsource lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85e311b9-7fd0-4a2e-9686-0ad92fc19688</tstamps>
+    </comp>
+    <comp ref="DS6">
+      <value>CFAL12832C-0091B-W</value>
+      <footprint>MPP_Display:CFAL12832C-0091B-W</footprint>
+      <datasheet>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</datasheet>
+      <libsource lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>733308b7-f5da-4e1c-9127-ab2e02cf1246</tstamps>
+    </comp>
+    <comp ref="DS7">
+      <value>CFAL12832C-0091B-W</value>
+      <footprint>MPP_Display:CFAL12832C-0091B-W</footprint>
+      <datasheet>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</datasheet>
+      <libsource lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>accf0d8b-0b64-40ee-9609-948602472d63</tstamps>
+    </comp>
+    <comp ref="DS8">
+      <value>CFAL12832C-0091B-W</value>
+      <footprint>MPP_Display:CFAL12832C-0091B-W</footprint>
+      <datasheet>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</datasheet>
+      <libsource lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38b846e8-eec6-46ec-b8ea-a84b9df6493a</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94fbbb74-99ec-474c-965a-b6f00874340a</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad_M2.5</value>
+      <footprint>MPP_MountingHole:MountingHole_M2.5</footprint>
+      <libsource lib="MPP_Mechanical" part="MountingHole_Pad_M2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3939bfbf-a135-4640-b869-c618146df2d3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-15S-0.5SH_1x15-1MP_P0.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="midi-controller_oled-board_teensy.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f92fda53-2889-4999-9d49-4cbf674cbe07</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x15_Socket">
+      <description>Generic connector, single row, 01x15, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MPP_Display_Graphic" part="CFAL12832C-0091B-W">
+      <docs>file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</docs>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">CFAL12832C-0091B-W</field>
+        <field name="Footprint">MPP_Display:CFAL12832C-0091B-W</field>
+        <field name="Datasheet">file:///C:/Users/marcp/Downloads/CFAL12832C-0091B-W_Datasheet%20(6).pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="D2" type="bidirectional"/>
+        <pin num="3" name="D1" type="bidirectional"/>
+        <pin num="4" name="D0" type="bidirectional"/>
+        <pin num="5" name="DC" type="bidirectional"/>
+        <pin num="6" name="~{RST}" type="bidirectional"/>
+        <pin num="7" name="~{CS}" type="bidirectional"/>
+        <pin num="8" name="BS1" type="input"/>
+        <pin num="9" name="BS0" type="input"/>
+        <pin num="10" name="VDD" type="power_in"/>
+        <pin num="11" name="VBAT" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MPP_Mechanical" part="MountingHole_Pad_M2.5">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad_M2.5</field>
+        <field name="Footprint">MPP_MountingHole:MountingHole_M2.5</field>
+      </fields>
+      <pins>
+        <pin num="MP" name="MP" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="MPP_Display_Graphic">
+      <uri>C:\Users\marcp\OneDrive - Marc Powell\KiCad\symbols/MPP_Display_Graphic.kicad_sym</uri>
+    </library>
+    <library logical="MPP_Mechanical">
+      <uri>C:\Users\marcp\OneDrive - Marc Powell\KiCad\symbols/MPP_Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="DS1" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS1" pin="11" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="DS2" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS2" pin="11" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="DS3" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS3" pin="11" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="DS4" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS4" pin="11" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="DS5" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS5" pin="11" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="DS6" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS6" pin="11" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="DS7" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS7" pin="11" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="DS8" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="DS8" pin="11" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/DC">
+      <node ref="DS1" pin="5" pinfunction="DC" pintype="bidirectional"/>
+      <node ref="DS2" pin="5" pinfunction="DC" pintype="bidirectional"/>
+      <node ref="DS3" pin="5" pinfunction="DC" pintype="bidirectional"/>
+      <node ref="DS4" pin="5" pinfunction="DC" pintype="bidirectional"/>
+      <node ref="DS5" pin="5" pinfunction="DC" pintype="bidirectional"/>
+      <node ref="DS6" pin="5" pinfunction="DC" pintype="bidirectional"/>
+      <node ref="DS7" pin="5" pinfunction="DC" pintype="bidirectional"/>
+      <node ref="DS8" pin="5" pinfunction="DC" pintype="bidirectional"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="3" name="/MOSI">
+      <node ref="DS1" pin="3" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="DS2" pin="3" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="DS3" pin="3" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="DS4" pin="3" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="DS5" pin="3" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="DS6" pin="3" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="DS7" pin="3" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="DS8" pin="3" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="4" name="/SCLK">
+      <node ref="DS1" pin="4" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="DS2" pin="4" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="DS3" pin="4" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="DS4" pin="4" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="DS5" pin="4" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="DS6" pin="4" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="DS7" pin="4" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="DS8" pin="4" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/~{CS_0}">
+      <node ref="DS1" pin="7" pinfunction="~{CS}" pintype="bidirectional"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="6" name="/~{CS_1}">
+      <node ref="DS2" pin="7" pinfunction="~{CS}" pintype="bidirectional"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="7" name="/~{CS_2}">
+      <node ref="DS3" pin="7" pinfunction="~{CS}" pintype="bidirectional"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="8" name="/~{CS_3}">
+      <node ref="DS4" pin="7" pinfunction="~{CS}" pintype="bidirectional"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="9" name="/~{CS_4}">
+      <node ref="DS5" pin="7" pinfunction="~{CS}" pintype="bidirectional"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="10" name="/~{CS_5}">
+      <node ref="DS6" pin="7" pinfunction="~{CS}" pintype="bidirectional"/>
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="11" name="/~{CS_6}">
+      <node ref="DS7" pin="7" pinfunction="~{CS}" pintype="bidirectional"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="12" name="/~{CS_7}">
+      <node ref="DS8" pin="7" pinfunction="~{CS}" pintype="bidirectional"/>
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="13" name="/~{DSP_RST}">
+      <node ref="DS1" pin="6" pinfunction="~{RST}" pintype="bidirectional"/>
+      <node ref="DS2" pin="6" pinfunction="~{RST}" pintype="bidirectional"/>
+      <node ref="DS3" pin="6" pinfunction="~{RST}" pintype="bidirectional"/>
+      <node ref="DS4" pin="6" pinfunction="~{RST}" pintype="bidirectional"/>
+      <node ref="DS5" pin="6" pinfunction="~{RST}" pintype="bidirectional"/>
+      <node ref="DS6" pin="6" pinfunction="~{RST}" pintype="bidirectional"/>
+      <node ref="DS7" pin="6" pinfunction="~{RST}" pintype="bidirectional"/>
+      <node ref="DS8" pin="6" pinfunction="~{RST}" pintype="bidirectional"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="DS1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS1" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS1" pin="8" pinfunction="BS1" pintype="input"/>
+      <node ref="DS1" pin="9" pinfunction="BS0" pintype="input"/>
+      <node ref="DS2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS2" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS2" pin="8" pinfunction="BS1" pintype="input"/>
+      <node ref="DS2" pin="9" pinfunction="BS0" pintype="input"/>
+      <node ref="DS3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS3" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS3" pin="8" pinfunction="BS1" pintype="input"/>
+      <node ref="DS3" pin="9" pinfunction="BS0" pintype="input"/>
+      <node ref="DS4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS4" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS4" pin="8" pinfunction="BS1" pintype="input"/>
+      <node ref="DS4" pin="9" pinfunction="BS0" pintype="input"/>
+      <node ref="DS5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS5" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS5" pin="8" pinfunction="BS1" pintype="input"/>
+      <node ref="DS5" pin="9" pinfunction="BS0" pintype="input"/>
+      <node ref="DS6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS6" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS6" pin="8" pinfunction="BS1" pintype="input"/>
+      <node ref="DS6" pin="9" pinfunction="BS0" pintype="input"/>
+      <node ref="DS7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS7" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS7" pin="8" pinfunction="BS1" pintype="input"/>
+      <node ref="DS7" pin="9" pinfunction="BS0" pintype="input"/>
+      <node ref="DS8" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS8" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DS8" pin="8" pinfunction="BS1" pintype="input"/>
+      <node ref="DS8" pin="9" pinfunction="BS0" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(DS1-D2-Pad2)">
+      <node ref="DS1" pin="2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(DS2-D2-Pad2)">
+      <node ref="DS2" pin="2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(DS3-D2-Pad2)">
+      <node ref="DS3" pin="2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(DS4-D2-Pad2)">
+      <node ref="DS4" pin="2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(DS5-D2-Pad2)">
+      <node ref="DS5" pin="2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(DS6-D2-Pad2)">
+      <node ref="DS6" pin="2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(DS7-D2-Pad2)">
+      <node ref="DS7" pin="2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(DS8-D2-Pad2)">
+      <node ref="DS8" pin="2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(H1-PadMP)">
+      <node ref="H1" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(H2-PadMP)">
+      <node ref="H2" pin="MP" pinfunction="MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J1-Pin_5-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
