@@ -1,0 +1,8 @@
+site_name: Midi Controller
+site_url: https://mppowell.github.io/midi-controller
+
+plugins:
+  - glightbox
+
+theme:
+  name: material

@@ -7,8 +7,8 @@
 
 // Define oled labels
 const char* oledLabels[12][24] = {
-  {"Exposure", "Contrast", "Temperature", "Tint", "Highlights", "Shadows", "Whites", "Blacks", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
-  {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
+  {"Exposure", "Contrast", "Temperature", "Tint", "Highlights", "Shadows", "Whites", "Blacks", "Exposure2", "Contrast2", "Temperature2", "Tint2", "Highlights2", "Shadows2", "Whites2", "Blacks2", "Exposure3", "Contrast3", "Temperature3", "Tint3", "Highlights3", "Shadows3", "Whites3", "Blacks3"},
+  {"Page2_1", "Page2_2", "Page2_3", "Page2_4", "Page2_5", "Page2_6", "Page2_7", "Page2_8", "Page2_9", "Page2_10", "Page2_11", "Page2_12", "Page2_13", "Page2_14", "Page2_15", "Page2_16", "Page2_17", "Page2_18", "Page2_19", "Page2_20", "Page2_21", "Page2_22", "Page2_23", "Page2_24"},
   {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
   {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
   {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
@@ -192,19 +192,18 @@ void setup() {
     digitalWrite(oledCS4Pin, (i >> 4) & 0b00001);
 
     // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
-    if(!oledDisplay.begin(SSD1306_SWITCHCAPVCC, 0, false)) {
+    if(!oledDisplay.begin(SSD1306_SWITCHCAPVCC, 0, false)) { // Calls SPI.begin()
       // Serial.println(F("SSD1306 allocation failed"));
       for(;;); // Don't proceed, loop forever
     }
   }
 
   // Setup the IPS display
-  ipsDisplay.init(240, 320);
-  ipsDisplay.setRotation(1);
+  ipsDisplay.init(240, 320, SPI_MODE2); // Needs to be in SPI_MODE2 to work (discovered empirically)
+  drawIPSMenu();
   
   encoderState = readEncoder();
   updateOLEDs();
-  drawIPSMenu();
   updateIPSSelector(1, encoderState);
 }
 
@@ -344,6 +343,7 @@ void drawIPSMenu(void) {
   ipsDisplay.setTextColor(ST77XX_WHITE);
   ipsDisplay.setFont(&FreeSans9pt7b);
   ipsDisplay.setTextSize(1);
+  ipsDisplay.setRotation(1);
 
   for (int i=0; i<6; i++) {
     ipsDisplay.setCursor(10, yCursorPos);
@@ -365,6 +365,7 @@ void drawIPSMenu(void) {
 }
 
 void updateIPSSelector(int prevEncoderState, int newEncoderState) {
+  ipsDisplay.setRotation(1); // Set rotation before any new operation on screen
   // Clear the old selector rectangle
   ipsDisplay.drawRect(((prevEncoderState-1)/6)*160, (((prevEncoderState-1)%6)*40)+4, 160, 30, ST77XX_BLACK);
   // Draw the new one
