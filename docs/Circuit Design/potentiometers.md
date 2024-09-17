@@ -1,4 +1,4 @@
-# Potetiometer Subcircuit
+# POTENTIOMETER SUBCIRCUIT
 
 ## Components Used
 

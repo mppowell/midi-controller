@@ -6,3 +6,10 @@ plugins:
 
 theme:
   name: material
+  font:
+    text: Anek Latin
+    code: input-mono
+
+extra_css:
+  - https://use.typekit.net/hka8mpg.css
+  - stylesheets/extra.css

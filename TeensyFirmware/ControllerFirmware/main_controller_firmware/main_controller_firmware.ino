@@ -7,21 +7,21 @@
 
 // Define oled labels
 const char* oledLabels[12][24] = {
-  {"Exposure", "Contrast", "Temperature", "Tint", "Highlights", "Shadows", "Whites", "Blacks", "Exposure2", "Contrast2", "Temperature2", "Tint2", "Highlights2", "Shadows2", "Whites2", "Blacks2", "Exposure3", "Contrast3", "Temperature3", "Tint3", "Highlights3", "Shadows3", "Whites3", "Blacks3"},
-  {"Page2_1", "Page2_2", "Page2_3", "Page2_4", "Page2_5", "Page2_6", "Page2_7", "Page2_8", "Page2_9", "Page2_10", "Page2_11", "Page2_12", "Page2_13", "Page2_14", "Page2_15", "Page2_16", "Page2_17", "Page2_18", "Page2_19", "Page2_20", "Page2_21", "Page2_22", "Page2_23", "Page2_24"},
-  {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
-  {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
-  {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
-  {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
-  {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
-  {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
+  {"Temperature", "Tint", "Exposure", "Contrast", "Highlights", "Shadows", "Whites", "Blacks", "Texture", "Clarity", "Dehaze", "Vibrance", "Saturation", "B&W", "Crop Angle", "4 Stars", "Vignette", "Vign Mid", "Vign Round", "Vign Feath", "Vign High", "Grain", "Grain Size", "Grain Rough"},
+  {"Red Hue", "Orange Hue", "Yellow Hue", "Green Hue", "Aqua Hue", "Blue Hue", "Purple Hue", "Magenta Hue", "Red Sat", "Orange Sat", "Yellow Sat", "Green Sat", "Aqua Sat", "Blue Sat", "Purple Sat", "Magenta Sat", "Red Lum", "Orange Lum", "Yellow Lum", "Green Lum", "Aqua Lum", "Blue Lum", "Purple Lum", "Magenta Lum"},
+  {"Red B&W", "Orange B&W", "Yellow B&W", "Green B&W", "Aqua B&W", "Blue B&W", "Purple B&W", "Magenta B&W", "Temperature", "Tint", "Exposure", "Contrast", "Highlights", "Shadows", "Whites", "Blacks", "Texture", "Clarity", "Dehaze", "", "", "", "", ""},
+  {"Global Hue", "Highlight Hue", "Midtone Hue", "Shadow Hue", "Blending", "", "", "", "Global Sat", "Highlight Sat ", "Midtone Sat", "Shadow Sat", "Balance", "", "", "", "Global Lum", "Highlight Lum", "Midtone Lum", "Shadow Lum", "", "", "", ""},
+  {"Temperature", "Tint", "Exposure", "Contrast", "Highlights", "Shadows", "Whites", "Blacks", "Texture", "Clarity", "Dehaze", "Hue", "Saturation", "Sharpness", "Noise Red", "Moire", "Defringe", "Luminance", "Local Amount", "Invert", "Add Brush", "Sub Brush", "Brush Size", "Brush Feather"},
+  {"Angle", "Move Horiz", "Move Vert", "All", "Bottom", "Left", "Top", "Right", "Bottom-Left", "Top-Left", "Top-Right", "Bottom-Right", "Trans Vert", "Trans Horiz", "Trans Rotate", "Trans Aspect", "Trans Scale", "Trans X", "Trans Y", "Trans Reset", "Upright Reset", "Constrain", "Trans Auto", "Trans Off"},
+  {"Sharp Amount", "Sharp Radius", "Sharp Detail", "Sharp Masking", "", "", "", "", "Noise Lum", "Noise Detail", "Noise Contrast", "Color Amount", "Color Detail", "Color Smooth", "", "", "", "", "", "", "", "", "", ""},
+  {"Distortion", "Defringe Prpl", "Prpl Hue Low", "Prpl Hue High", "Defringe Grn", "Grn Hue Low", "Grn Hue High", "Vingnetting", "Vign Mid", "", "", "", "", "", "", "", "Shad Tint", "Red Hue", "Red Sat", "Green Hue", "Green Sat", "Blue Hue", "Blue Sat", ""},
   {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
   {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
   {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""},
   {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""}
 };
 
-const char* ipsLabels[12] = {"Basic", "Detail", "Hue", "Saturation", "Luminance", "Effects", "Transform", "Layer 8","Layer 9", "Layer 10", "Layer 11", "Layer 12"};
+const char* ipsLabels[12] = {"Basic", "Color Mixer", "B&W", "Color Grade", "Local", "Crop/Trans", "Detail", "Lens/Calib","", "", "", ""};
 
 // Define screen constants
 const int oledWidth = 128;
@@ -229,9 +229,9 @@ void loop() {
       currButtonState = digitalRead(rowPins[row]);
       if (currButtonState != buttonStateArray[row][col]) {
         if (currButtonState) {
-          usbMIDI.sendNoteOn(buttonMap[row][col]+1, 127, encoderState);
+          usbMIDI.sendNoteOn(buttonMap[row][col], 127, encoderState);
         } else {
-          usbMIDI.sendNoteOff(buttonMap[row][col]+1, 0, encoderState);
+          usbMIDI.sendNoteOff(buttonMap[row][col], 0, encoderState);
         }
         buttonStateArray[row][col] = currButtonState;
       }
@@ -271,7 +271,7 @@ void loop() {
 
         // If there has been a change then send it!
         if (midiVal != 64) {
-          usbMIDI.sendControlChange(potMap[i][j]+1, midiVal, encoderState); // Use the pot number as the control number
+          usbMIDI.sendControlChange(potMap[i][j], midiVal, encoderState); // Use the pot number as the control number
         }
 
         while (usbMIDI.read()); // Ignore incoming MIDI messages (see Teensy docs)
@@ -331,7 +331,7 @@ void updateOLEDs(void) {
     oledDisplay.setTextSize(1);
     oledDisplay.setFont(&FreeSans9pt7b);
     oledDisplay.setTextColor(SSD1306_WHITE);
-    oledDisplay.setCursor(10,25);
+    oledDisplay.setCursor(7,20);
     oledDisplay.println(oledLabels[encoderState-1][i]);
     oledDisplay.display();
   }
