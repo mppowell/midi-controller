@@ -21,7 +21,7 @@ const char* oledLabels[12][24] = {
   {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""}
 };
 
-const char* ipsLabels[12] = {"Basic", "Color Mixer", "B&W", "Color Grade", "Local", "Crop/Trans", "Detail", "Lens/Calib","", "", "", ""};
+const char* ipsLabels[12] = {"Basic", "Color Mixer", "B&W", "Color Grade", "Local", "Crop/Trans", "Detail", "Lens/Calib","", "", "", "Off"};
 
 // Define screen constants
 const int oledWidth = 128;
@@ -198,6 +198,9 @@ void setup() {
     }
   }
 
+  // Configure IPS pins
+  pinMode(ipsBacklightPin, OUTPUT);
+
   // Setup the IPS display
   ipsDisplay.init(240, 320, SPI_MODE2); // Needs to be in SPI_MODE2 to work (discovered empirically)
   drawIPSMenu();
@@ -334,6 +337,12 @@ void updateOLEDs(void) {
     oledDisplay.setCursor(7,20);
     oledDisplay.println(oledLabels[encoderState-1][i]);
     oledDisplay.display();
+
+    // If encoder is set to position 12, then turn off the display
+    if (encoderState == 12) {
+      oledDisplay.clearDisplay();
+      oledDisplay.display();
+    }
   }
 }
 
@@ -365,9 +374,24 @@ void drawIPSMenu(void) {
 }
 
 void updateIPSSelector(int prevEncoderState, int newEncoderState) {
+  
+  // If 12 was the last position, redraw the menu. Need to do this before the rectangle is drawn so that it shows up too
+  if (prevEncoderState == 12) {
+    digitalWrite(ipsBacklightPin, HIGH);
+    drawIPSMenu();
+  }
+
   ipsDisplay.setRotation(1); // Set rotation before any new operation on screen
   // Clear the old selector rectangle
   ipsDisplay.drawRect(((prevEncoderState-1)/6)*160, (((prevEncoderState-1)%6)*40)+4, 160, 30, ST77XX_BLACK);
   // Draw the new one
   ipsDisplay.drawRect(((newEncoderState-1)/6)*160, (((newEncoderState-1)%6)*40)+4, 160, 30, ST77XX_WHITE);
+
+  // If encoder is set to position 12, then turn off the display
+  if (newEncoderState == 12) {
+    ipsDisplay.fillScreen(ST77XX_BLACK);
+    digitalWrite(ipsBacklightPin, LOW);
+  }
+
+
 }
